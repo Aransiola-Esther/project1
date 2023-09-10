@@ -77,7 +77,6 @@
     background-image: url(../images/bg2.jpg);
     background-size: cover;
     position:relative; 
-    border: solid red;
     background-repeat: no-repeat;    
 }
 
@@ -156,19 +155,14 @@
     padding: 50px
   }
 .red1{
-    color: rgb(248, 46, 80);
+    color: rgb(156, 23, 45);
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 5px;
     margin-top: 10px;
 }
-.margin{
-    border: red solid 2px;
-    padding: 20px;
-    width: 70%;
-    margin-right: 100px;
-   
-}
+  
+
 .picture{
     background-image: url(../images/b4.jpg);
     height: 400px;
@@ -180,13 +174,19 @@
     height: 40px;
 }
 .backgb{
-    border: #a0041e solid;
     display: flex;
+    background-color: white;
+    background-size: cover;
+
 }
 
 .backgb2{
-    border: #a0041e solid;
-    display: flex
+    display: flex;
+    background-color: white;
+    background-size: cover;
+    
+
+
 
 }
 .containertag3{
@@ -198,3 +198,40 @@
 .stylenone ul{
     list-style-type: none;
 }
+
+.border{
+    background-color: rgb(242, 243, 243);
+
+}
+.containertag3 .form-select{
+    height: 90px;
+ }
+ .text-danger{
+    font-size: 30px;
+    font-weight: normal;
+ } 
+ .redy{
+    border: #c99da4;
+    border-radius: 10px;
+    background-color: #dfcacd;
+    color: #a0041e;
+    font-weight:bold;
+    margin: 20px;
+ }
+ .green{
+    border: rgb(35, 241, 224);
+    border-radius: 10px;
+    background-color: rgb(206, 248, 248);
+    color: rgb(9, 77, 77);
+    font-weight:bold;
+    margin: 30px;
+ }
+
+ .blue{
+    border: #ecf2f8;
+    border-radius: 10px;
+    background-color: #d7dde4;
+    color: #3d3aff;
+    font-weight:bold;
+    margin: 20px;
+ }
